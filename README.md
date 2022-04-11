@@ -76,7 +76,8 @@ For the ParamClass under the apiautomation, this is where the testNG annotation 
 -Go to Command Prompt Window on your local machine
  
 - Change Directory to project directory e.g C:\Users\ibukun.omitola\Documents\Projects\ClipboardAssesmentIbk>
--Run this command docker build -t ClipboardAssesmentIbk:latest 
+-Run this command docker build -t amazon:latest .
+- Run docker image
 
 
 ## Author
@@ -91,7 +92,7 @@ For the ParamClass under the apiautomation, this is where the testNG annotation 
 
 ## 🤝 Contributing
 Open to contributions and comments
-
+Issue - There is a task to check time in seconds. It was commented out because the time response was more than 2seconds
 
 
 ## Show your support
