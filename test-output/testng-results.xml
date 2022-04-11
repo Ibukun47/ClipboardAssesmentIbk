@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-10T23:15:21 WAT" name="Suite" finished-at="2022-04-10T23:19:41 WAT" duration-ms="260265">
+    <groups>
+    </groups>
+    <test started-at="2022-04-10T23:15:21 WAT" name="Test" finished-at="2022-04-10T23:19:41 WAT" duration-ms="260265">
+      <class name="test.SelectSamsungSecondHighestPricedItem">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.SelectSamsungSecondHighestPricedItem@7674f035]" started-at="2022-04-10T23:15:21 WAT" name="setUp" finished-at="2022-04-10T23:16:28 WAT" duration-ms="66942" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="gotoTheHambugerPage()[pri:1, instance:test.SelectSamsungSecondHighestPricedItem@7674f035]" started-at="2022-04-10T23:16:36 WAT" name="gotoTheHambugerPage" finished-at="2022-04-10T23:16:40 WAT" duration-ms="4022" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gotoTheHambugerPage -->
+        <test-method signature="selectTvAndAppliances()[pri:2, instance:test.SelectSamsungSecondHighestPricedItem@7674f035]" started-at="2022-04-10T23:16:40 WAT" name="selectTvAndAppliances" finished-at="2022-04-10T23:16:44 WAT" duration-ms="3228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectTvAndAppliances -->
+        <test-method signature="selecttelevisonlink()[pri:3, instance:test.SelectSamsungSecondHighestPricedItem@7674f035]" started-at="2022-04-10T23:16:44 WAT" name="selecttelevisonlink" finished-at="2022-04-10T23:18:20 WAT" duration-ms="96510" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selecttelevisonlink -->
+        <test-method signature="verifybrand()[pri:4, instance:test.SelectSamsungSecondHighestPricedItem@7674f035]" started-at="2022-04-10T23:18:20 WAT" name="verifybrand" finished-at="2022-04-10T23:18:24 WAT" duration-ms="4126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifybrand -->
+        <test-method signature="clicksamsungcheckbox()[pri:5, instance:test.SelectSamsungSecondHighestPricedItem@7674f035]" started-at="2022-04-10T23:18:24 WAT" name="clicksamsungcheckbox" finished-at="2022-04-10T23:18:39 WAT" duration-ms="14952" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clicksamsungcheckbox -->
+        <test-method signature="sortbyHightoLow()[pri:6, instance:test.SelectSamsungSecondHighestPricedItem@7674f035]" started-at="2022-04-10T23:18:39 WAT" name="sortbyHightoLow" finished-at="2022-04-10T23:18:53 WAT" duration-ms="13187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortbyHightoLow -->
+        <test-method signature="selectSecondItem()[pri:7, instance:test.SelectSamsungSecondHighestPricedItem@7674f035]" started-at="2022-04-10T23:18:53 WAT" name="selectSecondItem" finished-at="2022-04-10T23:18:53 WAT" duration-ms="528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectSecondItem -->
+        <test-method signature="switchwindow()[pri:8, instance:test.SelectSamsungSecondHighestPricedItem@7674f035]" started-at="2022-04-10T23:18:53 WAT" name="switchwindow" finished-at="2022-04-10T23:19:39 WAT" duration-ms="46063" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- switchwindow -->
+        <test-method signature="selectedOption()[pri:9, instance:test.SelectSamsungSecondHighestPricedItem@7674f035]" started-at="2022-04-10T23:19:39 WAT" name="selectedOption" finished-at="2022-04-10T23:19:40 WAT" duration-ms="641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectedOption -->
+        <test-method is-config="true" signature="close()[pri:0, instance:test.SelectSamsungSecondHighestPricedItem@7674f035]" started-at="2022-04-10T23:19:40 WAT" name="close" finished-at="2022-04-10T23:19:41 WAT" duration-ms="1499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.SelectSamsungSecondHighestPricedItem -->
+      <class name="apiAutomation.User_Post">
+        <test-method signature="POJO(java.lang.String,java.lang.String)[pri:0, instance:apiAutomation.User_Post@6fdbe764]" started-at="2022-04-10T23:16:28 WAT" name="POJO" data-provider="POJOUserDetails" finished-at="2022-04-10T23:16:33 WAT" duration-ms="4682" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ibukun]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- POJO -->
+        <test-method signature="POJO(java.lang.String,java.lang.String)[pri:0, instance:apiAutomation.User_Post@6fdbe764]" started-at="2022-04-10T23:16:33 WAT" name="POJO" data-provider="POJOUserDetails" finished-at="2022-04-10T23:16:33 WAT" duration-ms="780" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mag]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Senior Analyst]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- POJO -->
+        <test-method signature="post_user(java.lang.String,java.lang.String)[pri:0, instance:apiAutomation.User_Post@6fdbe764]" started-at="2022-04-10T23:16:33 WAT" name="post_user" data-provider="UserDetails" finished-at="2022-04-10T23:16:35 WAT" duration-ms="1394" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ibukun]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post_user -->
+        <test-method signature="post_user(java.lang.String,java.lang.String)[pri:0, instance:apiAutomation.User_Post@6fdbe764]" started-at="2022-04-10T23:16:35 WAT" name="post_user" data-provider="UserDetails" finished-at="2022-04-10T23:16:36 WAT" duration-ms="1615" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mag]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Senior Analyst]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post_user -->
+      </class> <!-- apiAutomation.User_Post -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
