@@ -73,10 +73,10 @@ For the ParamClass under the apiautomation, this is where the testNG annotation 
 >Prequisite
 -Install JDK, Install Maven and set MAVEN_HOME in environmental variable
 -Install docker on your local machine
--Go to Command Prompt Window on your local
+-Go to Command Prompt Window on your local machine
  
 - Change Directory to project directory e.g C:\Users\ibukun.omitola\Documents\Projects\ClipboardAssesmentIbk>
--Run this command docker build -t ClipboardAssesmentIbk:latest .
+-Run this command docker build -t ClipboardAssesmentIbk:latest 
 
 
 ## Author

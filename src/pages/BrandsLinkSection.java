@@ -10,7 +10,7 @@ public class BrandsLinkSection {
 
 	WebDriver driver = null;
 	By brandslabel = By.xpath("//div[@id='s-refinements'] //div[17] //span[contains(text(),'Brands')]");
-	By samsungcheckbox = By.xpath("//div[@id='s-refinements'] //div[17] //ul[@class='a-unordered-list a-nostyle a-vertical a-spacing-medium'] //li[2][@class='a-spacing-micro'] //span[@class='a-list-item'] //a[@class='a-link-normal'] //div[@class='a-checkbox a-checkbox-fancy aok-float-left apb-browse-refinements-checkbox']");
+	By samsung = By.xpath("//span[@class='a-size-base a-color-base'][normalize-space()='Samsung']");
 	By resultofSamsungCheckbox = By.xpath("//span[contains(text(),'RESULTS')]");
 
 
@@ -18,8 +18,8 @@ public class BrandsLinkSection {
 		this.driver = driver;
 	}
 	// Click checks
-	public void clickSamsungCheckbox() {
-		driver.findElement(samsungcheckbox).click();
+	public void clickSamsung() {
+		driver.findElement(samsung).click();
 		System.out.println("Samsung checkbox clicked successfully");
 	}
 
@@ -42,9 +42,6 @@ public class BrandsLinkSection {
 		}
 	}
 
-	public void confirmsamsungCheckboxIsselected() {
-		driver.findElement(samsungcheckbox).isSelected();
-		System.out.println("Smasung Checkbox Is selected");
-	}
+	
 
 }

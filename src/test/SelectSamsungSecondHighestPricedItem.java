@@ -54,9 +54,9 @@ public class SelectSamsungSecondHighestPricedItem extends BaseClass{
 
 	//click on samsung checkbox
 
-	public void clicksamsungcheckbox() throws InterruptedException {
+	public void clicksamsung() throws InterruptedException {
 		BrandsLinkSection brand = new BrandsLinkSection(driver);
-		brand.clickSamsungCheckbox();
+		brand.clickSamsung();
 		System.out.println("This one passed");
 
 	}
