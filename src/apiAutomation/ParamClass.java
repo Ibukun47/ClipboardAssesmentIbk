@@ -7,8 +7,8 @@ public class ParamClass {
 	public Object[][] userdatapost(){
 
 		return new Object[][] {
-			{"Ibukun", "Admin"},
-			{"Mag", "Senior Analyst"}
+			{"admin", "admin"},
+			{"ronaldo", "player"}
 		};
 	}
 	
@@ -16,8 +16,8 @@ public class ParamClass {
 	public Object[][] POJOUserDetails(){
 
 		return new Object[][] {
-			{"Ibukun", "Admin"},
-			{"Mag", "Senior Analyst"}
+			{"admin", "admin"},
+			{"ronaldo", "player"}
 		};
 	
 	}
